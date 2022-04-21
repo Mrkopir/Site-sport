@@ -1,0 +1,62 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: url("imgs/header-bg.png") no-repeat top, #080808;
+    background-color: #0d0d0d;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.header_up{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_up_somewhere{
+    opacity: 0.2;
+    font-family: Gilroy;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    font-family: "Gilroy-Regular", sans-serif;
+}
+
+.header_up_number p{
+    color: white;
+    font-family: "Gilroy-Regular", sans-serif;
+}
+
+.header_up_logo_pls_some{
+    display: flex;
+}
+
+.header_up_number p{
+    font-family: "Gilroy-Regular", sans-serif;
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: 800;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+
+.header_up_number .header_up_number_under p{
+    font-family: "Gilroy-Regular", sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 7px;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 0.01em;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+    color: #ffffff;
+}
